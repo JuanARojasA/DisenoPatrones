@@ -22,3 +22,8 @@ Diagramas de Gestión de Notas para Docentes y Estudiantes.
 |Juan Andres Rojas Alvarez|20141020031|
 |Fabian Esteban Peña Castillo| 20141020051|
 |Angel Emanuel Steven Rodriguez Castro|20141020105|
+
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
