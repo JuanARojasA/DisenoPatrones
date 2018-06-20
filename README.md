@@ -25,6 +25,6 @@ Diagramas de Gestión de Notas para Docentes y Estudiantes.
 
 | Command | Description |
 | --- | --- |
-| git status | List all new or modified files |
+| Juan Andres Rojas Alvarez | 20141020031 |
 | git diff | Show file differences that haven't been staged |
 | git diff | Show file differences that haven't been staged |
