@@ -5,6 +5,7 @@ Actividad #1:
 Diagramas de Gestión de Notas para Docentes y Estudiantes.
 
 ***Diagrama de Paquetes***
+
 ![Diagrama De Paquetes](https://github.com/JuanARojasA/DisenoPatrones/blob/master/Tarea%201-%20Ejercicio%20de%20Modelado%20Gestion%20de%20Notas/Paquete.png)
 
 ***Diagrama de Componentes***
