@@ -1,4 +1,4 @@
-# DisenoPatrones
+# Diseño Arquitectural de Software y Patrones
 Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 
 Actividad #1:
