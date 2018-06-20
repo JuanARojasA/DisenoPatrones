@@ -19,5 +19,7 @@ Diagramas de Gestión de Notas para Docentes y Estudiantes.
 
 ***Autores***
 *Juan Andres Rojas Alvarez, 20141020031*
+
 *Fabian Esteban Peña Castillo, 20141020051*
+
 *Angel Emanuel Steven Rodriguez Castro, 20141020105*
