@@ -2,16 +2,16 @@
 Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 
 ***Punto de Vista Organizacional***
-![Punto De Vista Organizacional](https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Tarea%202%20-%20Archi%20Sistema%20de%20Gestion%20Academica/Puntos%20De%20Vista/Punto%20de%20Vista%20Organizacional.jpg)
+![Punto De Vista Organizacional](https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Tarea%202%20-%20Archi%20Sistema%20de%20Gestion%20Academica/Puntos%20De%20Vista/Punto%20de%20Vista%20Organizacional.jpg#center)
 
 ***Punto de Vista de Cooperación entre Actores***
-![Punto De Vista de Cooperación entre Actores](https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Tarea%202%20-%20Archi%20Sistema%20de%20Gestion%20Academica/Puntos%20De%20Vista/Punto%20de%20Vista%20Cooperacional.jpg)
+![Punto De Vista de Cooperación entre Actores](https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Tarea%202%20-%20Archi%20Sistema%20de%20Gestion%20Academica/Puntos%20De%20Vista/Punto%20de%20Vista%20Cooperacional.jpg#center)
 
 ***Punto de Vista De Funciones de Negocio***
-![Punto De Vista de Cooperación entre Actores](https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Tarea%202%20-%20Archi%20Sistema%20de%20Gestion%20Academica/Puntos%20De%20Vista/Punto%20de%20Vista%20Funcional%20V2.0.jpg)
+![Punto De Vista de Cooperación entre Actores](https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Tarea%202%20-%20Archi%20Sistema%20de%20Gestion%20Academica/Puntos%20De%20Vista/Punto%20de%20Vista%20Funcional%20V2.0.jpg#center)
 
 ***Punto de Vista De Procesos de Negocio***
-![Punto De Vista de Cooperación entre Actores](https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Tarea%202%20-%20Archi%20Sistema%20de%20Gestion%20Academica/Puntos%20De%20Vista/Punto%20de%20Vista%20Preocedimental%20V1.0.jpg)
+![Punto De Vista de Cooperación entre Actores](https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Tarea%202%20-%20Archi%20Sistema%20de%20Gestion%20Academica/Puntos%20De%20Vista/Punto%20de%20Vista%20Preocedimental%20V1.0.jpg#center)
 
 
 ***Autores***
