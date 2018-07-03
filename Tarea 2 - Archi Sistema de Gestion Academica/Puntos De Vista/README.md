@@ -1,8 +1,6 @@
 # DisenoPatrones
 Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 
-<p align="center">
-  
 ***Punto de Vista Organizacional***
 ![Punto De Vista Organizacional](https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Tarea%202%20-%20Archi%20Sistema%20de%20Gestion%20Academica/Puntos%20De%20Vista/Punto%20de%20Vista%20Organizacional.jpg)
 
@@ -14,7 +12,7 @@ Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 
 ***Punto de Vista De Procesos de Negocio***
 ![Punto De Vista de Cooperación entre Actores](https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Tarea%202%20-%20Archi%20Sistema%20de%20Gestion%20Academica/Puntos%20De%20Vista/Punto%20de%20Vista%20Preocedimental%20V1.0.jpg)
-</p>
+
 
 ***Autores***
 
