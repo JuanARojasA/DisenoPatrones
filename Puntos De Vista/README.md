@@ -3,7 +3,7 @@ Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 
 <details>
 <summary>Punto de Vista introductorio</summary>
-  ***Punto De Vista Introductorio***
+  <i>Punto De Vista Introductorio</i>
 </pre>
 </details>
 
