@@ -45,6 +45,7 @@ Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
     </ul>
   </pre>
   </details>
+  <details>
   <summary><b><i>Desventajas</i></b></summary>
     <ul>
       <li>Los entornos de programación están límitados por el proveedor</li>
