@@ -3,7 +3,7 @@ Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 
 <details>
 <summary>Punto de Vista introductorio</summary>
-  <b><i>Punto De Vista Introductorio</i></b>\n
+  <b><i>Punto De Vista Introductorio</i></b><hr>
   <img src="https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Puntos%20De%20Vista/Punto%20de%20Vista%20Introductorio.jpg">
 </pre>
 </details>
