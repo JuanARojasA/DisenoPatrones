@@ -2,6 +2,9 @@
 Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 
 <details>
+  <summary><h2><b><i>Puntos De Vista</i></b></h2></summary>
+
+<details>
   <summary><b><i>Punto de Vista introductorio</i></b></summary>
   <img src="https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Puntos%20De%20Vista/Punto%20de%20Vista%20Introductorio.jpg">
 </pre>
@@ -61,6 +64,9 @@ Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 <details>
   <summary><b><i>Punto de Vista de Uso de Aplicaciones (Gestión de Notas)</i></b></summary>
   <img src="https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Puntos%20De%20Vista/Punto%20de%20Vista%20de%20Uso%20de%20Aplicaciones%20(Gestion%20Notas).jpg">
+</pre>
+</details>
+
 </pre>
 </details>
 
