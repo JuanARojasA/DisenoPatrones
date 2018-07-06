@@ -33,6 +33,34 @@ Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 ---
 
 <details>
+  <summary><b><i>ServerLess</i></b></summary>
+  <br><p>Serverless es un tipo de arquitectura donde los servidores (físicos o en la nube) dejan de existir para el desarrollador y en cambio el código corre en “ambientes de ejecución” que administran proveedores como Amazon, Google, IBM, etc.</p>
+  <details>
+  <summary><b><i>Ventajas</i></b></summary>
+    <ul>
+      <li>No es necesario administrar servidores</li>
+      <li>El escalamiento es flexible</li>
+      <li>Alta Disponibilidad</li>
+      <li>No se paga por capacidad latente</li>
+    </ul>
+  </pre>
+  </details>
+  <summary><b><i>Desventajas</i></b></summary>
+    <ul>
+      <li>Los entornos de programación están límitados por el proveedor</li>
+      <li>Es un servicio sin estado, cualquier operación que requiera "recordar" entre ejecuciones
+      <br>ha de apoyarse en otros servicios</li>
+      <li>Al cobrarse por tiempo de ejecución, y en algunos proveedores limitarse, <br>
+      se penaliza un consumo prolongado en el tiempo</li>
+    </ul>
+  </pre>
+  </details>
+</pre>
+</details>
+
+---
+
+<details>
   <summary><b><i>Puntos De Vista</i></b></summary>
 
 <details>
