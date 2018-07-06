@@ -2,7 +2,7 @@
 Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 
 <details>
-  <summary><h2><b><i>Puntos De Vista</i></b></h2></summary>
+  <summary><b><i>Puntos De Vista</i></b></summary>
 
 <details>
   <summary><b><i>Punto de Vista introductorio</i></b></summary>
