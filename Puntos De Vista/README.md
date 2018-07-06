@@ -3,7 +3,7 @@ Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 
 <details>
   <summary><b><i>MicroServicios</i></b></summary>
-  <br><img src="http://comunytek.com/wp-content/uploads/2017/03/Microservicios.png" align="middle">
+  <br><p style="text-align:center;"><img src="http://comunytek.com/wp-content/uploads/2017/03/Microservicios.png"></p>
   <br><p>Los microservicios son un sistema de desarrollo software que en los últimos años ha gozado de una gran popularidad. Aunque muchos se ven atraídos por ellos, no todos se han atrevido a ponerlos en práctica. De hecho, en estos momentos es cuando una gran mayoría de desarrolladores descubren cómo los microservices influyen de manera positiva en aspectos como el tiempo, rendimiento o la estabilidad de proyectos.</p>
   <details>
   <summary><b><i>Ventajas</i></b></summary>
@@ -35,7 +35,7 @@ Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 
 <details>
   <summary><b><i>ServerLess</i></b></summary>
-  <br><img src="https://www.parkmycloud.com/wp-content/uploads/2018/01/serverless_bze.png" align="middle">
+  <br><p style="text-align:center;"><img src="https://www.parkmycloud.com/wp-content/uploads/2018/01/serverless_bze.png"></p>
   <br><p>Serverless es un tipo de arquitectura donde los servidores (físicos o en la nube) dejan de existir para el desarrollador y en cambio el código corre en “ambientes de ejecución” que administran proveedores como Amazon, Google, IBM, etc.</p>
   <details>
   <summary><b><i>Ventajas</i></b></summary>
