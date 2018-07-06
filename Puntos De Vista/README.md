@@ -4,6 +4,29 @@ Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 <details>
   <summary><b><i>MicroServicios</i></b></summary>
   <br><p>Los microservicios son un sistema de desarrollo software que en los últimos años ha gozado de una gran popularidad. Aunque muchos se ven atraídos por ellos, no todos se han atrevido a ponerlos en práctica. De hecho, en estos momentos es cuando una gran mayoría de desarrolladores descubren cómo los microservices influyen de manera positiva en aspectos como el tiempo, rendimiento o la estabilidad de proyectos.</p>
+  <details>
+  <summary><b><i>Ventajas</i></b></summary>
+    <ul>
+      <li>Equipo de Trabajo Mínimo</li>
+      <li>Escalabilidad</li>
+      <li>Funcionalidad Modular, módulos independientes</li>
+      <li>Libertad del desarrollador de desarrollar y desplegar servicios de forma independiente</li>
+      <li>Uso de contenedores permitiendo el despliegue y el desarrollo de la aplicación rápidamente</li>
+    </ul>
+  </pre>
+  </details>
+  <details>
+  <summary><b><i>Desventajas</i></b></summary>
+    <ul>
+      <li>Alto Consumo de Memoria</li>
+      <li>Necesidad de tiempo para poder fragmentar distintos microservicios</li>
+      <li>Complejidad de gestión de un gran número de servicios</li>
+      <li>Necesidad de desarrolladores para la solución de problemas como latencia en la red
+        o balanceo de cargas</li>
+      <li>Pruebas o testeos complicados al despliegue distribuido</li>
+    </ul>
+  </pre>
+  </details>
 </pre>
 </details>
 
