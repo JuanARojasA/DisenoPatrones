@@ -5,7 +5,7 @@ Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
   <summary><b><i>Puntos De Vista</i></b></summary>
 
 <details>
-  <summary><b><i>      Punto de Vista introductorio</i></b></summary>
+  <summary><b><i>&nbsp;&nbsp; Punto de Vista introductorio</i></b></summary>
   <img src="https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Puntos%20De%20Vista/Punto%20de%20Vista%20Introductorio.jpg">
 </pre>
 </details>
@@ -13,7 +13,7 @@ Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 ---
 
 <details>
-  <summary><b><i>Punto de Vista Organizacional</i></b></summary>
+  <summary><b><i>&nbsp;&nbsp; Punto de Vista Organizacional</i></b></summary>
   <img src="https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Puntos%20De%20Vista/Punto%20de%20Vista%20Organizacional.jpg">
 </pre>
 </details>
