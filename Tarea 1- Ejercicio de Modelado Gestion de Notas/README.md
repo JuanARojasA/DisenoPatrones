@@ -17,6 +17,7 @@ Diagramas de Gestión de Notas para Docentes y Estudiantes.
 ***Diagrama de Secuencia***
 ![Diagrama de Secuencia](https://github.com/JuanARojasA/DisenoPatrones/blob/master/Tarea%201-%20Ejercicio%20de%20Modelado%20Gestion%20de%20Notas/Secuencia.png)
 
+
 ***Autores***
 
 | Nombre | Codigo |
@@ -24,3 +25,4 @@ Diagramas de Gestión de Notas para Docentes y Estudiantes.
 | Juan Andres Rojas Alvarez | 20141020031 |
 | Fabian Esteban Peña Castillo | 20141020051 |
 | Angel Emanuel Steven Rodriguez Castro | 20141020105 |
+| Brandon Stiven Gomez Guerrero | 20132020626 |
