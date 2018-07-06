@@ -35,6 +35,7 @@ Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 
 <details>
   <summary><b><i>ServerLess</i></b></summary>
+  <br><img src="https://www.parkmycloud.com/wp-content/uploads/2018/01/serverless_bze.png" align="middle">
   <br><p>Serverless es un tipo de arquitectura donde los servidores (físicos o en la nube) dejan de existir para el desarrollador y en cambio el código corre en “ambientes de ejecución” que administran proveedores como Amazon, Google, IBM, etc.</p>
   <details>
   <summary><b><i>Ventajas</i></b></summary>
@@ -64,7 +65,7 @@ Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 
 <details>
   <summary><b><i>Puntos De Vista</i></b></summary>
-
+<br>
 <details>
   <summary><b><i>Punto de Vista introductorio</i></b></summary>
   <img src="https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Puntos%20De%20Vista/Punto%20de%20Vista%20Introductorio.jpg" align="middle">
