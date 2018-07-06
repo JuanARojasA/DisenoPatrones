@@ -1,48 +1,54 @@
 Microservicios:
-Mientras que SOA es un concepto general y puede significar muchas cosas, la arquitectura de microservicios describe un modo particular de construir aplicaciones con servicios muy pequeÒos, cada uno de los cuales se enfoca en hacer sÛlo una cosa bien.
+Mientras que SOA es un concepto general y puede significar muchas cosas, la arquitectura de microservicios describe un modo particular de construir aplicaciones con servicios muy peque√±os, cada uno de los cuales se enfoca en hacer s√≥lo una cosa bien.
 
-En primer lugar, como los aplicativos son cada vez m·s complejos, la arquitectura monolÌtica tradicional ya no cumple con las necesidades de escalabilidad y ciclo de desarrollo r·pido (en la siguiente secciÛn veremos cÛmo los microservicios lo hacen posible). En segundo lugar, el Èxito de grandes compaÒÌas de Internet, principalmente Netflix, al implementar la arquitectura de microservicios, es una gran motivaciÛn para que otras empresas consideren hacer el cambio.
+En primer lugar, como los aplicativos son cada vez m√°s complejos, la arquitectura monol√≠tica tradicional ya no cumple con las necesidades de escalabilidad y ciclo de desarrollo r√°pido (en la siguiente secci√≥n veremos c√≥mo los microservicios lo hacen posible). En segundo lugar, el √©xito de grandes compa√±√≠as de Internet, principalmente Netflix, al implementar la arquitectura de microservicios, es una gran motivaci√≥n para que otras empresas consideren hacer el cambio.
 
-En la arquitectura de microservicios, la aplicaciÛn monolÌtica se descompone en m˙ltiples servicios pequeÒos, granulares, aislados, independientes y distribuibles. El hecho de que estos servicios se desacoplen por separado es trascendental, pues permite priorizar los recursos escasos a los microservicios m·s relevantes, sobre los dem·s. Estos servicios pueden ser desarrollados en paralelo, por diversos equipos, usando las tecnologÌas m·s adecuadas para cumplir con sus propÛsitos. TambiÈn, como se desacoplan por aparte, pueden ser escalados de manera independiente. Por ejemplo, un servicio que consume mucha CPU pero no necesita tanta memoria puede ser escalado en servidores equipados con un procesador potente pero con menor memoria.  Podemos escalar solamente los servicios que deseamos, no es necesario escalarlos todos.
+En la arquitectura de microservicios, la aplicaci√≥n monol√≠tica se descompone en m√∫ltiples servicios peque√±os, granulares, aislados, independientes y distribuibles. El hecho de que estos servicios se desacoplen por separado es trascendental, pues permite priorizar los recursos escasos a los microservicios m√°s relevantes, sobre los dem√°s. Estos servicios pueden ser desarrollados en paralelo, por diversos equipos, usando las tecnolog√≠as m√°s adecuadas para cumplir con sus prop√≥sitos. Tambi√©n, como se desacoplan por aparte, pueden ser escalados de manera independiente. Por ejemplo, un servicio que consume mucha CPU pero no necesita tanta memoria puede ser escalado en servidores equipados con un procesador potente pero con menor memoria.  Podemos escalar solamente los servicios que deseamos, no es necesario escalarlos todos.
 
 
-Si los servicios son independientes y aislados, øcÛmo compartir cÛdigo entre ellos? Bueno, es cuestiÛn de encontrar el punto de equilibrio. Lo positivo de compartir cÛdigo entre servicios es que permite reutilizar funcionalidades existentes y mantener el principio DRY (no escribir cÛdigo duplicado), lo negativo es que aumenta el acoplamiento entre los servicios. Una soluciÛn es compartir solamente las librerÌas de utilidades tÈcnicas y las de funcionalidades comunes, estas se pueden configurar como servicios independientes a los cuales otros servicios pueden llamar. Entonces, el siguiente punto a resolver a continuaciÛn es la comunicaciÛn entre servicios.
+Si los servicios son independientes y aislados, ¬øc√≥mo compartir c√≥digo entre ellos? Bueno, es cuesti√≥n de encontrar el punto de equilibrio. Lo positivo de compartir c√≥digo entre servicios es que permite reutilizar funcionalidades existentes y mantener el principio DRY (no escribir c√≥digo duplicado), lo negativo es que aumenta el acoplamiento entre los servicios. Una soluci√≥n es compartir solamente las librer√≠as de utilidades t√©cnicas y las de funcionalidades comunes, estas se pueden configurar como servicios independientes a los cuales otros servicios pueden llamar. Entonces, el siguiente punto a resolver a continuaci√≥n es la comunicaci√≥n entre servicios.
 
-La comunicaciÛn entre estos microservicios puede implementarse de dos maneras, mediante peticiones HTTP y a travÈs de cola de mensajes (Azure Service Bus, RabbitMQ, Kafka Apache, etc.). B·sicamente, HTTP es comunicaciÛn directa y debe usarse cuando se desea una respuesta inmediata del otro servicio. Por otra parte, el mecanismo publicaciÛn/suscripciÛn de la cola de mensaje tiende a ser asÌncrono.
+La comunicaci√≥n entre estos microservicios puede implementarse de dos maneras, mediante peticiones HTTP y a trav√©s de cola de mensajes (Azure Service Bus, RabbitMQ, Kafka Apache, etc.). B√°sicamente, HTTP es comunicaci√≥n directa y debe usarse cuando se desea una respuesta inmediata del otro servicio. Por otra parte, el mecanismo publicaci√≥n/suscripci√≥n de la cola de mensaje tiende a ser as√≠ncrono.
 
-Finalmente, como los servicios son muy granulares, las aplicaciones cliente generalmente necesitan interactuar con m˙ltiples servicios para obtener los datos que necesitan. Para permitir cambios en los servicios sin afectar a los clientes, se utiliza una API Gateway. API Gateway es una capa abstracta que oculta a todos los microservicios, dejando un ˙nico Endpoint para que los clientes se comuniquen. Las solicitudes que lleguen al Gateway ser·n procesadas/enrutadas hacia los servicios especÌficos. El Gateway tambiÈn nos permite monitorear f·cilmente el tr·fico y uso de los servicios.
+Finalmente, como los servicios son muy granulares, las aplicaciones cliente generalmente necesitan interactuar con m√∫ltiples servicios para obtener los datos que necesitan. Para permitir cambios en los servicios sin afectar a los clientes, se utiliza una API Gateway. API Gateway es una capa abstracta que oculta a todos los microservicios, dejando un √∫nico Endpoint para que los clientes se comuniquen. Las solicitudes que lleguen al Gateway ser√°n procesadas/enrutadas hacia los servicios espec√≠ficos. El Gateway tambi√©n nos permite monitorear f√°cilmente el tr√°fico y uso de los servicios.
 
 Ventajas:
-Mientras que la arquitectura monolÌtica funciona bien en escenarios tradicionales, en el mundo de hoy, donde las aplicaciones necesitan desplegar nuevas funcionalidades frecuentemente (en tÈrminos de horas) y estar siempre en lÌnea con alta disponibilidad, este estilo arquitectÛnico no cumple con las expectativas. Un cambio sencillo en un componente requiere pruebas de regresiÛn, recompilar y volver a desplegar toda la aplicaciÛn. Y dado que todo se ejecuta en el mismo proceso, una excepciÛn no controlada puede afectar todo el sistema monolÌtico.
+Mientras que la arquitectura monol√≠tica funciona bien en escenarios tradicionales, en el mundo de hoy, donde las aplicaciones necesitan desplegar nuevas funcionalidades frecuentemente (en t√©rminos de horas) y estar siempre en l√≠nea con alta disponibilidad, este estilo arquitect√≥nico no cumple con las expectativas. Un cambio sencillo en un componente requiere pruebas de regresi√≥n, recompilar y volver a desplegar toda la aplicaci√≥n. Y dado que todo se ejecuta en el mismo proceso, una excepci√≥n no controlada puede afectar todo el sistema monol√≠tico.
 
-Por el contrario, la arquitectura de microservicios es mucho m·s flexible y resistente:
+Por el contrario, la arquitectura de microservicios es mucho m√°s flexible y resistente:
 
-1. Los servicios en sÌ son muy simples de construir, pues se centran en hacer solamente una cosa bien, de forma que son f·ciles de probar y se puede asegurar mayor calidad.
+1. Los servicios en s√≠ son muy simples de construir, pues se centran en hacer solamente una cosa bien, de forma que son f√°ciles de probar y se puede asegurar mayor calidad.
 
-2. Cada servicio puede construirse con las tecnologÌas y herramientas m·s adecuadas, permitiendo ìPolyglot Programmingî (las aplicaciones se deben escribir en una mezcla de lenguajes para explotar sus mejores caracterÌsticas). La elecciÛn inicial de una tecnologÌa no nos deberÌa limitar durante el ciclo de vida del proyecto.
+2. Cada servicio puede construirse con las tecnolog√≠as y herramientas m√°s adecuadas, permitiendo ‚ÄúPolyglot Programming‚Äù (las aplicaciones se deben escribir en una mezcla de lenguajes para explotar sus mejores caracter√≠sticas). La elecci√≥n inicial de una tecnolog√≠a no nos deber√≠a limitar durante el ciclo de vida del proyecto.
 
-3. M˙ltiples equipos de desarrolladores pueden trabajar independientemente bajo esta arquitectura. Esto es ideal para lograr el ìcontinuous deliveryî, pues permite actualizaciones frecuentes mientras el resto del sistema se mantiene estable.
+3. M√∫ltiples equipos de desarrolladores pueden trabajar independientemente bajo esta arquitectura. Esto es ideal para lograr el ‚Äúcontinuous delivery‚Äù, pues permite actualizaciones frecuentes mientras el resto del sistema se mantiene estable.
 
-4. En el caso que un servicio deje de funcionar, solo afectar· las partes que dependen directamente de Èl (si las hay). El resto seguir· funcionando bien.
+4. En el caso que un servicio deje de funcionar, solo afectar√° las partes que dependen directamente de √©l (si las hay). El resto seguir√° funcionando bien.
 
 Serverless:
-Es una forma de construir y desplegar aplicaciones con filosofÌa Cloud, sus principales beneficios son que no tienes ni necesitas m·quinas virtuales (ni en IaaS ni en PaaS) para hacerlo tu aplicaciÛn.
+Es una forma de construir y desplegar aplicaciones con filosof√≠a Cloud, sus principales beneficios son que no tienes ni necesitas m√°quinas virtuales (ni en IaaS ni en PaaS) para hacerlo tu aplicaci√≥n.
 
-La idea principal consiste en utilizar servicios orientados a funciones (como AWS Lambda o Azure Functions) para trocear tu aplicaciÛn en pequeÒas unidades funcionales de cÛdigo, cada una de ellas es almacenada en alguno de estos SaaS y por delante debes poner un Proxy/Router/Balanceador (como AWS Gateway). 
+La idea principal consiste en utilizar servicios orientados a funciones (como AWS Lambda o Azure Functions) para trocear tu aplicaci√≥n en peque√±as unidades funcionales de c√≥digo, cada una de ellas es almacenada en alguno de estos SaaS y por delante debes poner un Proxy/Router/Balanceador (como AWS Gateway). 
 
-Un a cosa interesante de estos servicios es que se cobra por por segundo de ejecuciÛn (comparado al cobro por hora de ejecuciÛn de EC2 o Azure VMS, o minutos en Google Compute Engine), adem·s del tamaÒo de la funciÛn (en MB RAM).
+Un a cosa interesante de estos servicios es que se cobra por por segundo de ejecuci√≥n (comparado al cobro por hora de ejecuci√≥n de EC2 o Azure VMS, o minutos en Google Compute Engine), adem√°s del tama√±o de la funci√≥n (en MB RAM).
 
-Estos servicios en la nube permiten construir una aplicaciÛn RESTful, sin tener m·quinas ni preocuparnos por autoescalar, ya que estos servicios se encargan de hacer todas estas operaciones necesarias.
+Estos servicios en la nube permiten construir una aplicaci√≥n RESTful, sin tener m√°quinas ni preocuparnos por autoescalar, ya que estos servicios se encargan de hacer todas estas operaciones necesarias.
 
 
-øQuÈ es la serverless?
-La inform·tica sin servidor le permite crear y ejecutar aplicaciones y servicios sin preocuparse de los servidores. Las aplicaciones sin servidor no requieren que aprovisione, escale ni administre ning˙n servidor. Puede crearlas para pr·cticamente cualquier tipo de aplicaciÛn o servicio backend. Adem·s, usted administra todo lo necesario para ejecutar y escalar la aplicaciÛn con alta disponibilidad.
+¬øQu√© es la serverless?
+La inform√°tica sin servidor le permite crear y ejecutar aplicaciones y servicios sin preocuparse de los servidores. Las aplicaciones sin servidor no requieren que aprovisione, escale ni administre ning√∫n servidor. Puede crearlas para pr√°cticamente cualquier tipo de aplicaci√≥n o servicio backend. Adem√°s, usted administra todo lo necesario para ejecutar y escalar la aplicaci√≥n con alta disponibilidad.
 
-øPor quÈ usar serverless?
-La creaciÛn de aplicaciones sin servidor implica que sus desarrolladores se pueden centrar en el producto principal en lugar de preocuparse de la administraciÛn y el uso de los servidores, o los tiempos de ejecuciÛn, tanto en la nube como de forma local. Gracias a esta reducciÛn de carga, los desarrolladores pueden emplear su tiempo y energÌa en desarrollar productos increÌbles que sean de confianza y se puedan escalar.
-øCu·les son los beneficios de la inform·tica sin servidor?
+¬øPor qu√© usar serverless?
+La creaci√≥n de aplicaciones sin servidor implica que sus desarrolladores se pueden centrar en el producto principal en lugar de preocuparse de la administraci√≥n y el uso de los servidores, o los tiempos de ejecuci√≥n, tanto en la nube como de forma local. Gracias a esta reducci√≥n de carga, los desarrolladores pueden emplear su tiempo y energ√≠a en desarrollar productos incre√≠bles que sean de confianza y se puedan escalar.
+¬øCu√°les son los beneficios de la inform√°tica sin servidor?
 Las aplicaciones sin servidor tienen tres beneficios principales.
 
 - No hay que administrar servidores
 - Escalado flexible
 - Alta disponibilidad automatizada
+
+
+
+
+
+https://gist.githubusercontent.com/citrusui/07978f14b11adada364ff901e27c7f61/raw/9589b434b11257f4fb8cdb206970a7f1030dd906/dropdown.md
