@@ -117,6 +117,7 @@ Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 </pre>
 </details>
 <br><br>
+
 ***Autores***
 
 | Nombre | Codigo |
