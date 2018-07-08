@@ -72,15 +72,11 @@ Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 </pre>
 </details>
 
----
-
 <details>
   <summary><b><i>&nbsp;&nbsp; Punto de Vista Organizacional</i></b></summary>
   <img src="https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Puntos%20De%20Vista/Punto%20de%20Vista%20Organizacional.jpg" align="middle">
 </pre>
 </details>
-
----
 
 <details>
   <summary><b><i>Punto de Vista de Cooperacion de Actores</i></b></summary>
@@ -88,15 +84,11 @@ Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 </pre>
 </details>
 
----
-
 <details>
   <summary><b><i>Punto de Vista de Funciones de Negocio</i></b></summary>
   <img src="https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Puntos%20De%20Vista/Punto%20de%20Vista%20Funcional.jpg" align="middle">
 </pre>
 </details>
-
----
 
 <details>
   <summary><b><i>Punto de Vista de Procesos de Negocio</i></b></summary>
@@ -104,24 +96,17 @@ Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 </pre>
 </details>
 
----
-
 <details>
   <summary><b><i>Punto de Vista de Cooperación entre Aplicaciones</i></b></summary>
   <img src="https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Puntos%20De%20Vista/Punto%20de%20Vista%20de%20Cooperaci%C3%B3n%20de%20Aplicaciones.jpg" align="middle">
 </pre>
 </details>
 
----
-
 <details>
   <summary><b><i>Punto de Vista de Uso de Aplicaciones (Admisión)</i></b></summary>
   <img src="https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Puntos%20De%20Vista/Punto%20de%20Vista%20de%20Uso%20de%20Aplicaciones%20(Admisi%C3%B3n).jpg" align="middle">
 </pre>
 </details>
-
----
-
 
 <details>
   <summary><b><i>Punto de Vista de Uso de Aplicaciones (Gestión de Notas)</i></b></summary>
