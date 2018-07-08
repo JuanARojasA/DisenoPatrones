@@ -73,7 +73,7 @@ Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 </details>
 
 <details>
-  <summary><b><i>&nbsp;&nbsp; Punto de Vista Organizacional</i></b></summary>
+  <summary><b><i>Punto de Vista Organizacional</i></b></summary>
   <img src="https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Puntos%20De%20Vista/Punto%20de%20Vista%20Organizacional.jpg" align="middle">
 </pre>
 </details>
@@ -116,9 +116,7 @@ Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 
 </pre>
 </details>
-
----
-
+<br><br>
 ***Autores***
 
 | Nombre | Codigo |
