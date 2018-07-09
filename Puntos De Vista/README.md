@@ -114,6 +114,12 @@ Repositorio del Intersemestral de Diseño Arquitectural de Software y Patrones
 </pre>
 </details>
 
+<details>
+  <summary><b><i>Punto de Vista de Uso de Infraestructura</i></b></summary>
+  <img src="https://raw.githubusercontent.com/JuanARojasA/DisenoPatrones/master/Puntos%20De%20Vista/Punto%20de%20Vista%20de%20Uso%20de%20Infraestructura.jpg" align="middle">
+</pre>
+</details>
+
 </pre>
 </details>
 <br><br>
